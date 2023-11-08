@@ -1,8 +1,9 @@
 import numpy as np
 from sklearn.neighbors import NearestNeighbors
 import matplotlib.pyplot as plt
+import time
 
-np.random.seed(0)
+np.random.seed(time.time())
 points = np.random.rand(20, 2)
 
 test_point = np.random.rand(1, 2)
